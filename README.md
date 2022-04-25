@@ -147,3 +147,5 @@ See [my ML Jupyter Notebook](./ModelDevelopment.ipynb) for detailed steps I took
 
 I chose two production models - Logistic Regression w/ SMOTE (hereby Model #1) and Logistic Regression (hereby Model #2) because they had the highest recall and precision on the minority class, respectively. Model #1 would be good to implement for low-cost general approaches where it would be important to identify *all* customers at risk of churning. Model #2 would be useful for situations where the accuracy of the to-churn customers would be important, such as offering proactive discounts or more aggressive outreach.
 
+## Final Executive Presentation
+You can watch the 5-minute presentation of my final analysis, production models, and recommendations to stakeholders (i.e. my class) [here](https://youtu.be/02OBC89z_4w?t=1530).
