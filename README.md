@@ -58,7 +58,7 @@ Variables given in datasets:
 Engineered Features:
 
 * Packages
-- Consolidates different combinations of services to the following 8 packages: 
+  - Consolidates different combinations of services to the following 8 packages: 
 
 |Package Name|Description|
 |---|---|
@@ -70,7 +70,7 @@ Engineered Features:
 |DSL Bundle Plus|Subscription to DSL Internet service, phone services, and one or more premium services.|
 |Fiber Optic Bundle*|Subscription to fiber optic Internet service and phone service. No premium services.|
 |Fiber Optic Bundle Plus*|Subscription to fiber optic Internet service, phone service, and one or more premium services.|
-* Please note that Telco requires bundling fiber optic Internet with phone service.
+\* Please note that Telco requires bundling fiber optic Internet with phone service.
 
 ## Technical Presentation about Initial EDA
 
