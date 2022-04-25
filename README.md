@@ -55,7 +55,7 @@ Variables given in datasets:
 |Churn|Yes = The customer left the company this quarter. No = The customer remained with the company|
 |Churn Reason|A customer's reason for leaving the company, selected from a list of structured options at service termination|
 
-Engineered Features:
+*Engineered Features*:
 
 * Packages
   - Consolidates different combinations of services to the following 8 packages: 
@@ -71,6 +71,31 @@ Engineered Features:
 |Fiber Optic Bundle*|Subscription to fiber optic Internet service and phone service. No premium services.|
 |Fiber Optic Bundle Plus*|Subscription to fiber optic Internet service, phone service, and one or more premium services.|
 \* Please note that Telco requires bundling fiber optic Internet with phone service.
+
+* Churn Category
+  - Groups 20 different given churn reasons into common themes:
+|Churn Reason|Assigned Category|
+|---|---|
+|Attitude of support person|Attitude|
+|Competitor offered higher download speeds|Competitor|
+|Competitor offered more data|Competitor|
+|Don't know|Other|
+|Competitor made better offer|Competitor|
+|Attitude of service provider|Attitude|
+|Competitor had better devices|Competitor|
+|Network reliability|Dissatisfaction|
+|Product dissatisfaction|Dissatisfaction|
+|Price too high|Price|
+|Service dissatisfaction|Dissatisfaction|
+|Lack of self-service on Website|Dissatisfaction|
+|Extra data charges|Price|
+|Moved|Other|
+|Limited range of services|Dissatisfaction|
+|Lack of affordable download/upload speed|Price|
+|Long distance charges|Price|
+|Poor expertise of phone support|Dissatisfaction|
+|Poor expertise of online support|Dissatisfaction|
+|Deceased|Other|
 
 ## Technical Presentation about Initial EDA
 
