@@ -101,6 +101,7 @@ Variables given in datasets:
 ## Methods
 
 **Data Prepartion and EDA**
+
 See [my data preparation Jupyter Notebook](./EDA.ipynb) for detailed steps I took to obtain, clean and visually analyze the data. The general steps were:
 1. Reviewed contents of the files provided, and decided which features were unique across all files and relevant to retain in my final combined dataset.
 2. Imported raw data into dataframes, did some basic formatting, and visualized distributions of univarate features. 
@@ -111,11 +112,13 @@ See [my data preparation Jupyter Notebook](./EDA.ipynb) for detailed steps I too
 7. Created visualizations to churn rate across contract type and tenure.
 
 **Technical Presentation about Initial EDA**
+
 In the following presentation, I discuss my progress in EDA to this point and plans for machine learning development. Please note that at this point, I had not yet found the additional datasets I have incorporated into the final version of my project.
 [Google Drive link](https://drive.google.com/file/d/19aR9KYIWNQG5ErrFV2ksu3sAiQFCIHpA/view?usp=sharing)
 
 
 **Machine Learning Model Development**
+
 See [my ML Jupyter Notebook](./ModelDevelopment.ipynb) for detailed steps I took to develop and evaluate machine learning models. Due to class imblalances, I tested each model with additions of SMOTE to oversample the minority class and the True class_balanced parameter when available. The results of each model are available below:
 
 |    | model name              |   accuracy |   roc_auc |   precision_min |   recall_min |   f1-score_min |   precision_maj |   recall_maj |   f1-score_maj |
