@@ -16,7 +16,7 @@ Predict behavior to retain customers at Telco telecommunications company. Analyz
 ## Data
 I analyzed a data consisting of information on 7,043 unique customers and information relating to their demographics, account history, and services.
 
-## Data Sources
+### Data Sources
 Cognos Analytics Sample Datasets
 * [Customer Churn](https://community.ibm.com/accelerators/catalog/content/Customer-churn)
 
@@ -55,8 +55,22 @@ Variables given in datasets:
 |Churn|Yes = The customer left the company this quarter. No = The customer remained with the company|
 |Churn Reason|A customer's reason for leaving the company, selected from a list of structured options at service termination|
 
+Engineered Features:
 
+* Packages
+- Consolidates different combinations of services to the following 8 packages: 
 
+|Package Name|Description|
+|---|---|
+|Phone Only|Subscription to phone service, unsubscribed to multiple lines or Internet service.|
+|Phone Plus|Subscription to phone service + multiple lines. No Internet service.|
+|DSL Only|Subscription to DSL Internet service. No phone service or premium service opt-in.|
+|DSL Plus|Subscription to DSL Internet service with one or more premium services. No phone service.|
+|DSL Bundle|Subscription to DSL Internet service and phone service (undifferentiated by Multiple Lines). No premium services.|
+|DSL Bundle Plus|Subscription to DSL Internet service, phone services, and one or more premium services.|
+|Fiber Optic Bundle*|Subscription to fiber optic Internet service and phone service. No premium services.|
+|Fiber Optic Bundle Plus*|Subscription to fiber optic Internet service, phone service, and one or more premium services.|
+* Please note that Telco requires bundling fiber optic Internet with phone service.
 
 ## Technical Presentation about Initial EDA
 
