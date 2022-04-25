@@ -149,7 +149,7 @@ I chose two production models - Logistic Regression w/ SMOTE (hereby Model #1) a
 You can watch the 5-minute presentation of my final analysis, production models, and recommendations to stakeholders (i.e. my class) [here](https://youtu.be/02OBC89z_4w?t=1530).
 
 ## Future To-Dos
-[ ] Incorporate the customer lifetime value (CLTV) metric provided in the "Telco_customer_churn.xlsx" dataset to develop a profit-oriented retention outreach, targeting high-value customers
-[ ] Use K-means clustering to identify different groups of customers, which may help to personalize outreach / retention strategies to specific needs. This could be helpful for automating outreach, which will reduce labor costs
-[ ] Develop and test a deep learning (NN) model in an effort to improve model performance
+- [ ] Incorporate the customer lifetime value (CLTV) metric provided in the "Telco_customer_churn.xlsx" dataset to develop a profit-oriented retention outreach, targeting high-value customers
+- [ ] Use K-means clustering to identify different groups of customers, which may help to personalize outreach / retention strategies to specific needs. This could be helpful for automating outreach, which will reduce labor costs
+- [ ] Develop and test a deep learning (NN) model in an effort to improve model performance
 
