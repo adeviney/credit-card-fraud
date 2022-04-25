@@ -29,7 +29,7 @@ Cognos Analytics Sample Datasets
 Variables given in datasets:
 
 |Variable Name|Description|
-|---|---|---|---|
+|---|---|
 |CustomerID|Unique ID identifying customer|
 |Gender|Customer's gender, Male or Female|
 |SeniorCitizen|Indicates whether the customer is 65 years or older, Yes or No|
