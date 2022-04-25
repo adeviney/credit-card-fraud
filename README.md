@@ -19,9 +19,7 @@ I analyzed a data consisting of information on 7,043 unique customers and inform
 ### Data Sources
 Cognos Analytics Sample Datasets
 * [Customer Churn](https://community.ibm.com/accelerators/catalog/content/Customer-churn)
-
 * [Telco Customer Churn](https://community.ibm.com/accelerators/catalog/content/Telco-customer-churn)
-
 * [Telco Customer Churn Status and Reason for Leaving](https://community.ibm.com/accelerators/catalog/content/Telco-customer-churn-status-and-reason-for-leaving)
 
 ### Variables and Engineered Features
