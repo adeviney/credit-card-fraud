@@ -74,6 +74,7 @@ Variables given in datasets:
 
 * Churn Category
   - Groups 20 different given churn reasons into common themes:
+
 |Churn Reason|Assigned Category|
 |---|---|
 |Attitude of support person|Attitude|
