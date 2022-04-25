@@ -117,7 +117,7 @@ In the following presentation, I discuss my progress in EDA to this point and pl
 
 **Machine Learning Model Development**
 
-See [my ML Jupyter Notebook](./ModelDevelopment.ipynb) for detailed steps I took to develop and evaluate machine learning models. Due to class imblalances, I tested each model with additions of SMOTE to oversample the minority class and the True class_balanced parameter when available. The results of each model are available below:
+See [my ML Jupyter Notebook](./ModelDevelopment.ipynb) for detailed steps I took to develop and evaluate machine learning models. Due to class imbalances, I tested each model with additions of SMOTE to oversample the minority class and the True class_balanced parameter when available. The metric results of each model I tested are available below:
 
 |    | model name              |   accuracy |   roc_auc |   precision_min |   recall_min |   f1-score_min |   precision_maj |   recall_maj |   f1-score_maj |
 |---:|:------------------------|-----------:|----------:|----------------:|-------------:|---------------:|----------------:|-------------:|---------------:|
