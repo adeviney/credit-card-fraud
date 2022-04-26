@@ -111,7 +111,7 @@ See [my data preparation Jupyter Notebook](./EDA.ipynb) for detailed steps I too
 
 **Technical Presentation about Initial EDA**
 
-In the following presentation, I discuss my progress in EDA to this point and plans for machine learning development. Please note that at this point, I had not yet found the additional datasets I have incorporated into the final version of my project. This in-progress presentation does also not include the more refined and detailed visuals I had created for my final presentation.
+In the following presentation, I discuss my progress in EDA to this point and plans for machine learning development. Please note that at this point, I had not yet found the additional datasets I have incorporated into the final version of my project. This in-progress presentation does also not include the more refined and detailed visuals I had created for my final presentation. Quite honestly I will probably re-do this video from the current version because I have a lot more to discuss now. But here it is in its crude form
 [Google Drive link](https://drive.google.com/file/d/19aR9KYIWNQG5ErrFV2ksu3sAiQFCIHpA/view?usp=sharing)
 
 
