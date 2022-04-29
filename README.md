@@ -98,7 +98,7 @@ Variables given in datasets:
 
 ## Methods
 
-**Data Prepartion and EDA (Spell out what EDA stands for here)**
+**Data Prepartion and Exploratory Data Analysis (EDA)**
 
 See [my data preparation Jupyter Notebook](./EDA.ipynb) for detailed steps I took to obtain, clean and visually analyze the data. The general steps were:
 1. Reviewed contents of the files provided, and decided which features were unique across all files and relevant to retain in my final combined dataset.
