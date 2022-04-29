@@ -7,10 +7,10 @@
 2. Is service/product engagement a predictor of churn? Which products, when opted into, confer a lower probability of a customer to churn?
 3. What services are the most profitable?
 4. What is the tenure of customers who decide to churn? Are new or old customers churning?
-6. Are longer contracts conductive to customer retention?
+6. Are longer contracts conducive to customer retention?
 
 ## Business Problem
-* Attracting new customers can be up to 5x more costly than retaining existing customers. 
+* Attracting new customers can be up to 5 times more costly than retaining existing customers. 
 * Predict and prevent churn to retain customers at Telco telecommunications company. 
   * Analyze all relevant data to determine which customers are likely to churn.
   * Help develop focused customer retention programs. 
