@@ -2,16 +2,18 @@
 **Author:** Alexis Deviney
 
 ## Overview
-This goal of this project is to recommend strategies to minimize customer churn (or service termination) from a fictional telecommunications company. In my analysis, I answered the following questions:
+<mark>The</mark> goal of this project is to recommend strategies to minimize customer churn (or service termination) from a fictional telecommunications company. In my analysis, I answered the following questions:
 1. What customer demographics have the highest proportion of customer churn?
-2. Is service/product engagement predictable of churn? Which products, when opted into, confer a lower probability of a customer to churn?
+2. Is service/product engagement a predictor of churn? Which products, when opted into, confer a lower probability of a customer to churn?
 3. What services are the most profitable?
 4. What is the tenure of customers who decide to churn? Are new or old customers churning?
-6. Are longer contracts conducive to customer retention?
+6. Are longer contracts conductive to customer retention?
 
 ## Business Problem
-Attracting new customers can be up to 5x more costly than retaining existing customers. 
-Predict behavior to retain customers at Telco telecommunications company. Analyze all relevant customer data to help develop focused customer retention programs. 
+* Attracting new customers can be up to 5x more costly than retaining existing customers. 
+* Predict and prevent churn to retain customers at Telco telecommunications company. 
+  * Analyze all relevant data to determine which customers are likely to churn.
+  * Help develop focused customer retention programs. 
 
 ## Data
 I analyzed a data consisting of information on 7,043 unique customers and information relating to their demographics, account history, and services.
@@ -35,7 +37,7 @@ Variables given in datasets:
 |Tenure|Total number of months the customer has been with the company|
 |Latitude|The latitude of the customer's residence|
 |Longitude|The longitude of the customer's residence|
-|Zip Code|The zip code of the customer's residence|
+|ZipCode|The zip code of the customer's residence|
 |PhoneService|Indicates if the customer is subscribed to phone service with the company, Yes or No|
 |MultipleLines|Indicates if  the customer has multiple phone lines on their phone service, Yes or No|
 |InternetService|Indicates if the customer is subscribed to internet service with the company, Yes or No|
@@ -55,8 +57,7 @@ Variables given in datasets:
 
 **Engineered Features**:
 
-* Packages
-  - Consolidates different combinations of services to the following 8 packages: 
+* Packages - 8 different combinations of services offered by Teleco. 
 
 |Package Name|Description|
 |---|---|
@@ -70,8 +71,7 @@ Variables given in datasets:
 |Fiber Optic Bundle Plus*|Subscription to fiber optic Internet service, phone service, and one or more premium services.|
 \* Please note that Telco requires bundling fiber optic Internet with phone service.
 
-* Churn Category
-  - Groups 20 different given churn reasons into common themes:
+* Churn Category - Groups 20 different given churn reasons into common themes.
 
 |Churn Reason|Assigned Category|
 |---|---|
@@ -98,20 +98,20 @@ Variables given in datasets:
 
 ## Methods
 
-**Data Prepartion and EDA**
+**Data Prepartion and EDA (Spell out what EDA stands for here)**
 
 See [my data preparation Jupyter Notebook](./EDA.ipynb) for detailed steps I took to obtain, clean and visually analyze the data. The general steps were:
 1. Reviewed contents of the files provided, and decided which features were unique across all files and relevant to retain in my final combined dataset.
 2. Imported raw data into dataframes, did some basic formatting, and visualized distributions of univarate features. 
 3. Created visualizations to explore most common reasons for churn.
-4. Used hypothesis testing to create a function to indicate statistically significant churn reasons for a given demographic or service group. (Despite my hopes, this was not useful in garnering deeper insights.)
+4. Used hypothesis testing to create a function to indicate statistically significant churn reasons for a given demographic or service group. (Despite my hopes, this did not garner deeper insights.)
 5. Created visualizations to explore churn percentages of different demographic, service, and account groups.
 6. Created visualizations to explore the monthly charges of package groups, separted by contract type.
-7. Created visualizations to churn rate across contract type and tenure.
+7. Created visualizations to explore churn rate across contract type and tenure.
 
 **Technical Presentation about Initial EDA**
 
-In the following presentation, I discuss my progress in EDA to this point and plans for machine learning development. Please note that at this point, I had not yet found the additional datasets I have incorporated into the final version of my project. This in-progress presentation does also not include the more refined and detailed visuals I had created for my final presentation. Quite honestly I will probably re-do this video from the current version because I have a lot more to discuss now. But here it is in its crude form
+In the following presentation, I discuss my progress in EDA to this point and plans for machine learning development. Please note that at this point, I had not yet found the additional datasets I have incorporated into the final version of my project. This in-progress presentation also excludes the more refined and detailed visuals I had created for my final presentation. Quite honestly I will probably re-do this video from the current version because I have a lot more to discuss now. But here it is in its crude form
 [Google Drive link](https://drive.google.com/file/d/19aR9KYIWNQG5ErrFV2ksu3sAiQFCIHpA/view?usp=sharing)
 
 
@@ -143,7 +143,7 @@ See [my ML Jupyter Notebook](./ModelDevelopment.ipynb) for detailed steps I took
 | 19 | XGB Class Balanced      |   0.79841  |  0.856802 |        0.673184 |     0.503132 |       0.575866 |        0.830364 |     0.908736 |       0.867784 |
 | 20 | LGBM Smote              |   0.373083 |  0.796523 |        0.301082 |     0.987474 |       0.461463 |        0.968421 |     0.143526 |       0.25     |
 
-I chose two production models - Logistic Regression w/ SMOTE (hereby Model #1) and Logistic Regression (hereby Model #2) because they had the highest recall and precision on the minority class, respectively. Model #1 would be good to implement for low-cost general approaches where it would be important to identify *all* customers at risk of churning. Model #2 would be useful for situations where the accuracy of the to-churn customers would be important, such as offering proactive discounts or more aggressive outreach.
+I chose two production models - Logistic Regression with SMOTE (hereby Model #1) and Logistic Regression (hereby Model #2) because they had the highest recall and precision on the minority class, respectively. Model #1 would be good to implement for low-cost general approaches where it would be important to identify *all* customers at risk of churning. Model #2 would be useful for situations where the accuracy of the to-churn customers would be important, such as offering proactive discounts or more aggressive outreach.
 
 ## Final Executive Presentation
 You can watch the 5-minute presentation of my final analysis, production models, and recommendations to stakeholders (i.e. my class) [here](https://youtu.be/02OBC89z_4w?t=1530).
